@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="Electron">
+  <diagram name="Thống kê ứng dụng - Chương 1: Dữ liệu &amp; Thống kê" id="CH01-DataAndStatistics-Mindmap">
+    <mxGraphModel dx="1628" dy="-1422" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <!-- ========================================== -->
+        <!-- TOP TITLE BANNER                           -->
+        <!-- ========================================== -->
+        <mxCell id="TITLE_BANNER" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;fillColor=#1e293b;strokeColor=#0f172a;strokeWidth=2;fontColor=#ffffff;align=center;verticalAlign=middle;shadow=1;fontFamily=Helvetica;" vertex="1">
+          <mxGeometry height="90" width="2000" x="1200" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="TITLE_TEXT" parent="1" style="text;html=1;whiteSpace=wrap;fillColor=none;strokeColor=none;align=center;verticalAlign=middle;fontFamily=Helvetica;fontColor=#ffffff;fontSize=22;fontStyle=1;" value="CHƯƠNG 1: DỮ LIỆU &amp; THỐNG KÊ ỨNG DỤNG TRONG KINH TẾ &amp; KINH DOANH&lt;br/&gt;&lt;span style=&quot;font-size: 13px; font-weight: normal; opacity: 0.85; color: #94a3b8;&quot;&gt;Entity-based &amp; Hierarchical Systems Thinking Mindmap | Thống kê Ứng dụng UEH | Chuẩn giáo trình Anderson, Sweeney, Williams&lt;/span&gt;" vertex="1">
+          <mxGeometry height="70" width="1960" x="1220" y="110" as="geometry" />
+        </mxCell>
+
+        <!-- ========================================== -->
+        <!-- TIER 1: DATA FOUNDATIONS & ACQUISITION     -->
+        <!-- Left: [E1] Data & Scales | Right: [E2] Sources & Acquisition -->
+        <!-- ========================================== -->
+
+        <!-- [E1] DỮ LIỆU & HỆ THỐNG THANG ĐO -->
+        <mxCell id="E1_HEADER" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=10;fillColor=#37474F;strokeColor=#212121;fontColor=#ffffff;fontStyle=1;fontSize=13;shadow=1;fontFamily=Helvetica;" value="📊 [E1] DỮ LIỆU &amp; HỆ THỐNG THANG ĐO (DATA &amp; SCALES)&lt;br/&gt;&lt;span style=&quot;opacity: 0.85; font-size: 11px; font-weight: normal;&quot;&gt;Nguyên liệu đầu vào, Cấu trúc Dữ liệu &amp; 4 Cấp độ Thang đo&lt;/span&gt;" vertex="1">
+          <mxGeometry height="55" width="380" x="1410" y="240" as="geometry" />
+        </mxCell>
+
+        <mxCell id="E1_CARD_1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=6;fillColor=#ECEFF1;strokeColor=#546E7A;strokeWidth=1.5;fontColor=#263238;fontSize=11;align=left;spacingLeft=10;spacingRight=10;spacingTop=6;spacingBottom=6;fontFamily=Helvetica;" value="&lt;b style=&quot;font-size: 12px; color: #1A237E;&quot;&gt;1.1 🎯 BẢN CHẤT &amp; CẤU TRÚC DỮ LIỆU:&lt;/b&gt;&lt;br/&gt;• &lt;b&gt;Dữ liệu (Data)&lt;/b&gt;: Sự kiện &amp; số liệu thu thập để tóm tắt, phân tích &amp; ra quyết định&lt;br/&gt;• &lt;b&gt;Toán vs Thống kê&lt;/b&gt;: Thống kê gắn liền ngữ cảnh, chỉ có ý nghĩa khi đồng nhất&lt;br/&gt;• &lt;b&gt;Phần tử (Elements, n)&lt;/b&gt;: Đối tượng khảo sát cụ thể (công ty, cá nhân)&lt;br/&gt;• &lt;b&gt;Biến số (Variables, k)&lt;/b&gt;: Đặc tính quan tâm cần đo lường (doanh thu, giá)&lt;br/&gt;• &lt;b&gt;Quan sát (Observations)&lt;/b&gt;: Bộ k số đo của 1 phần tử (Tập dữ liệu: n × k giá trị)" vertex="1">
+          <mxGeometry height="180" width="340" x="1060" y="340" as="geometry" />
+        </mxCell>
+
+        <mxCell id="E1_CARD_2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=6;fillColor=#ECEFF1;strokeColor=#546E7A;strokeWidth=1.5;fontColor=#263238;fontSize=11;align=left;spacingLeft=10;spacingRight=10;spacingTop=6;spacingBottom=6;fontFamily=Helvetica;" value="&lt;b style=&quot;font-size: 12px; color: #1A237E;&quot;&gt;1.2 ⚙️ HỆ THỐNG 4 THANG ĐO &amp; PHÂN LOẠI:&lt;/b&gt;&lt;br/&gt;• &lt;b&gt;Danh nghĩa (Nominal)&lt;/b&gt;: Gán nhãn/định danh, không thứ bậc (Giới tính, Sàn giao dịch)&lt;br/&gt;• &lt;b&gt;Thứ bậc (Ordinal)&lt;/b&gt;: So sánh thứ tự hơn kém, không đo khoảng cách (Học lực, Rank)&lt;br/&gt;• &lt;b&gt;Khoảng (Interval)&lt;/b&gt;: Dữ liệu số, khoảng cách đều, KHÔNG có gốc 0 tuyệt đối (°C, SAT)&lt;br/&gt;• &lt;b&gt;Tỷ lệ (Ratio)&lt;/b&gt;: Mạnh nhất, CÓ gốc 0 tuyệt đối, tỷ lệ bảo toàn (Thu nhập, Giá, Tuổi)&lt;br/&gt;• &lt;b&gt;Định tính (Nominal, Ordinal)&lt;/b&gt; vs &lt;b&gt;Định lượng (Interval, Ratio - Rời rạc / Liên tục)&lt;/b&gt;" vertex="1">
+          <mxGeometry height="180" width="340" x="1430" y="340" as="geometry" />
+        </mxCell>
+
+        <mxCell id="E1_CARD_3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=6;fillColor=#ECEFF1;strokeColor=#546E7A;strokeWidth=1.5;fontColor=#263238;fontSize=11;align=left;spacingLeft=10;spacingRight=10;spacingTop=6;spacingBottom=6;fontFamily=Helvetica;" value="&lt;b style=&quot;font-size: 12px; color: #1A237E;&quot;&gt;1.3 ⚠️ CHIỀU THỜI GIAN &amp; THIẾT KẾ ĐO LƯỜNG:&lt;/b&gt;&lt;br/&gt;• &lt;b&gt;Thời điểm (Cross-sectional)&lt;/b&gt;: Nhiều đối tượng tại 1 thời điểm (so sánh thực trạng)&lt;br/&gt;• &lt;b&gt;Chuỗi thời gian (Time series)&lt;/b&gt;: 1 đối tượng qua nhiều kỳ (phân tích xu hướng)&lt;br/&gt;• &lt;b&gt;Quy tắc bất khả hoàn tác&lt;/b&gt;: Muốn tính Mean bắt buộc thu thập Ratio từ đầu&lt;br/&gt;• &lt;b&gt;Cảnh báo phần mềm (Excel/SPSS)&lt;/b&gt;: Máy tính máy móc, người dùng phải hiểu bản chất dữ liệu" vertex="1">
+          <mxGeometry height="180" width="340" x="1800" y="340" as="geometry" />
+        </mxCell>
+
+        <!-- E1 Internal Hierarchy Edges -->
+        <mxCell id="E1_EDGE_1" edge="1" parent="1" source="E1_HEADER" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#37474F;strokeWidth=1.5;curved=0;exitX=0.2;exitY=1;entryX=0.5;entryY=0;" target="E1_CARD_1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E1_EDGE_2" edge="1" parent="1" source="E1_HEADER" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#37474F;strokeWidth=1.5;curved=0;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" target="E1_CARD_2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E1_EDGE_3" edge="1" parent="1" source="E1_HEADER" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#37474F;strokeWidth=1.5;curved=0;exitX=0.8;exitY=1;entryX=0.5;entryY=0;" target="E1_CARD_3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <!-- [E2] NGUỒN DỮ LIỆU & THU THẬP -->
+        <mxCell id="E2_HEADER" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=10;fillColor=#006064;strokeColor=#00838F;fontColor=#ffffff;fontStyle=1;fontSize=13;shadow=1;fontFamily=Helvetica;" value="🌐 [E2] NGUỒN DỮ LIỆU &amp; QUY TRÌNH THU THẬP (DATA SOURCES)&lt;br/&gt;&lt;span style=&quot;opacity: 0.85; font-size: 11px; font-weight: normal;&quot;&gt;Khai thác Dữ liệu Thứ cấp &amp; Thiết lập Nghiên cứu Dữ liệu Sơ cấp&lt;/span&gt;" vertex="1">
+          <mxGeometry height="55" width="400" x="2600" y="240" as="geometry" />
+        </mxCell>
+
+        <mxCell id="E2_CARD_1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=6;fillColor=#E0F2F1;strokeColor=#00897B;strokeWidth=1.5;fontColor=#004D40;fontSize=11;align=left;spacingLeft=10;spacingRight=10;spacingTop=6;spacingBottom=6;fontFamily=Helvetica;" value="&lt;b style=&quot;font-size: 12px; color: #006064;&quot;&gt;2.1 🎯 DỮ LIỆU THỨ CẤP (EXISTING / SECONDARY):&lt;/b&gt;&lt;br/&gt;• &lt;b&gt;Ẩn dụ 'Đi ăn tiệm'&lt;/b&gt;: Dữ liệu có sẵn, thu thập nhanh, tiết kiệm tối đa chi phí&lt;br/&gt;• &lt;b&gt;Hồ sơ nội bộ công ty&lt;/b&gt;: Nhân viên, sản xuất, tồn kho, bán hàng, khách hàng&lt;br/&gt;• &lt;b&gt;Dịch vụ thương mại&lt;/b&gt;: Bloomberg, Dow Jones, ACNielsen (POS scanners)&lt;br/&gt;• &lt;b&gt;Cơ quan chính phủ&lt;/b&gt;: Cục Thống kê (BLS/GSO), Cục Dự trữ Fed, Cục Dân số Census&lt;br/&gt;• &lt;b&gt;Hiệp hội &amp; Internet&lt;/b&gt;: Cổng thông tin tài chính niêm yết, hiệp hội chuyên ngành" vertex="1">
+          <mxGeometry height="180" width="340" x="2260" y="340" as="geometry" />
+        </mxCell>
+
+        <mxCell id="E2_CARD_2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=6;fillColor=#E0F2F1;strokeColor=#00897B;strokeWidth=1.5;fontColor=#004D40;fontSize=11;align=left;spacingLeft=10;spacingRight=10;spacingTop=6;spacingBottom=6;fontFamily=Helvetica;" value="&lt;b style=&quot;font-size: 12px; color: #006064;&quot;&gt;2.2 ⚙️ DỮ LIỆU SƠ CẤP &amp; THIẾT KẾ NGHIÊN CỨU:&lt;/b&gt;&lt;br/&gt;• &lt;b&gt;Ẩn dụ 'Tự nấu ăn'&lt;/b&gt;: Tự thiết kế &amp; thu thập; tốn kém nhưng chuẩn xác 100% mục tiêu&lt;br/&gt;• &lt;b&gt;Nghiên cứu thực nghiệm (Experimental)&lt;/b&gt;: Kiểm soát biến để tìm quan hệ nhân quả (Thử nghiệm lâm sàng thuốc, vắc-xin Salk trên 2 triệu trẻ em)&lt;br/&gt;• &lt;b&gt;Nghiên cứu quan sát (Observational)&lt;/b&gt;: Ghi nhận tự nhiên không can thiệp biến (Khảo sát nhà hàng Lobster Pot về chất lượng, tốc độ, vệ sinh)&lt;br/&gt;• &lt;b&gt;Điểm khởi đầu&lt;/b&gt;: Bắt đầu từ Mục đích cụ thể, không bắt đầu từ số liệu hỗn loạn" vertex="1">
+          <mxGeometry height="180" width="340" x="2630" y="340" as="geometry" />
+        </mxCell>
+
+        <mxCell id="E2_CARD_3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=6;fillColor=#E0F2F1;strokeColor=#00897B;strokeWidth=1.5;fontColor=#004D40;fontSize=11;align=left;spacingLeft=10;spacingRight=10;spacingTop=6;spacingBottom=6;fontFamily=Helvetica;" value="&lt;b style=&quot;font-size: 12px; color: #006064;&quot;&gt;2.3 ⚠️ RÀNG BUỘC KINH TẾ &amp; KIỂM SOÁT SAI SỐ:&lt;/b&gt;&lt;br/&gt;• &lt;b&gt;Yêu cầu thời gian (Time)&lt;/b&gt;: Nguy cơ dữ liệu lỗi thời trước khi ra quyết định&lt;br/&gt;• &lt;b&gt;Nguyên tắc kinh tế cốt lõi&lt;/b&gt;: Chi phí thu thập (Cost) bắt buộc &lt; Lợi ích tạo ra (Benefit)&lt;br/&gt;• &lt;b&gt;Sai số dữ liệu (Data Errors)&lt;/b&gt;: Dữ liệu sai lệch còn nguy hiểm hơn không có dữ liệu&lt;br/&gt;• &lt;b&gt;Kỹ thuật rà soát&lt;/b&gt;: Kiểm tra tính nhất quán logic &amp; Tầm soát giá trị ngoại lệ (Outliers)&lt;br/&gt;• &lt;b&gt;Chuẩn hóa dữ liệu&lt;/b&gt;: Lọc sạch dị biệt trước khi đưa vào động cơ tính toán" vertex="1">
+          <mxGeometry height="180" width="340" x="3000" y="340" as="geometry" />
+        </mxCell>
+
+        <!-- E2 Internal Hierarchy Edges -->
+        <mxCell id="E2_EDGE_1" edge="1" parent="1" source="E2_HEADER" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#006064;strokeWidth=1.5;curved=0;exitX=0.2;exitY=1;entryX=0.5;entryY=0;" target="E2_CARD_1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E2_EDGE_2" edge="1" parent="1" source="E2_HEADER" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#006064;strokeWidth=1.5;curved=0;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" target="E2_CARD_2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E2_EDGE_3" edge="1" parent="1" source="E2_HEADER" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#006064;strokeWidth=1.5;curved=0;exitX=0.8;exitY=1;entryX=0.5;entryY=0;" target="E2_CARD_3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <!-- ========================================== -->
+        <!-- TIER 2: ANALYTICAL PROCESSING ENGINE       -->
+        <!-- Left: [E3] Descriptive | Right: [E4] Inference -->
+        <!-- ========================================== -->
+
+        <!-- [E3] THỐNG KÊ MÔ TẢ -->
+        <mxCell id="E3_HEADER" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=10;fillColor=#0D47A1;strokeColor=#1565C0;fontColor=#ffffff;fontStyle=1;fontSize=13;shadow=1;fontFamily=Helvetica;" value="📈 [E3] THỐNG KÊ MÔ TẢ (DESCRIPTIVE STATISTICS)&lt;br/&gt;&lt;span style=&quot;opacity: 0.85; font-size: 11px; font-weight: normal;&quot;&gt;Tổ chức, Trực quan hóa Bảng biểu, Đồ thị &amp; Số đo Tóm tắt Đặc trưng&lt;/span&gt;" vertex="1">
+          <mxGeometry height="55" width="380" x="1410" y="600" as="geometry" />
+        </mxCell>
+
+        <mxCell id="E3_CARD_1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=6;fillColor=#E3F2FD;strokeColor=#1E88E5;strokeWidth=1.5;fontColor=#0D47A1;fontSize=11;align=left;spacingLeft=10;spacingRight=10;spacingTop=6;spacingBottom=6;fontFamily=Helvetica;" value="&lt;b style=&quot;font-size: 12px; color: #0D47A1;&quot;&gt;3.1 🎯 SỨ MỆNH &amp; NGUYÊN TẮC CỐT LÕI:&lt;/b&gt;&lt;br/&gt;• &lt;b&gt;Mục tiêu&lt;/b&gt;: Biến tập dữ liệu thô khổng lồ thành thông tin trực quan, dễ hiểu&lt;br/&gt;• &lt;b&gt;3 hình thức&lt;/b&gt;: Bảng biểu (tabular), Đồ thị (graphical), Số đo tóm tắt (numerical)&lt;br/&gt;• &lt;b&gt;Nguyên tắc phụ thuộc&lt;/b&gt;: Dạng thang đo quyết định công cụ tóm tắt hợp lệ&lt;br/&gt;• &lt;b&gt;Nguyên tắc 'biết nói'&lt;/b&gt;: Không dừng lại ở số khô khan mà giải thích bản chất&lt;br/&gt;• &lt;b&gt;Quy trình 3 giai đoạn&lt;/b&gt;: Thu thập → Tổng hợp (trình bày) → Phân tích &amp; Diễn giải" vertex="1">
+          <mxGeometry height="180" width="340" x="1060" y="700" as="geometry" />
+        </mxCell>
+
+        <mxCell id="E3_CARD_2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=6;fillColor=#E3F2FD;strokeColor=#1E88E5;strokeWidth=1.5;fontColor=#0D47A1;fontSize=11;align=left;spacingLeft=10;spacingRight=10;spacingTop=6;spacingBottom=6;fontFamily=Helvetica;" value="&lt;b style=&quot;font-size: 12px; color: #0D47A1;&quot;&gt;3.2 ⚙️ HỆ THỐNG CÔNG CỤ BẢNG BIỂU &amp; ĐỒ THỊ:&lt;/b&gt;&lt;br/&gt;• &lt;b&gt;Dữ liệu Định tính&lt;/b&gt;: Bảng tần số (Frequency), Tần suất (Relative), Phần trăm; Biểu đồ thanh (Bar chart, cột rời rạc), Biểu đồ tròn (Pie chart, tỷ lệ cơ cấu)&lt;br/&gt;• &lt;b&gt;Dữ liệu Định lượng&lt;/b&gt;: Bảng phân phối tần số nhóm lớp, Bảng tích lũy (Cumulative)&lt;br/&gt;• &lt;b&gt;Đồ thị Định lượng&lt;/b&gt;: Histogram (các cột liền kề quan sát phân phối), Dot plot, Stem-and-leaf (giữ số thô), Ogive, Scatter diagram (tương quan 2 biến)&lt;br/&gt;• &lt;b&gt;Minh họa Hudson Auto&lt;/b&gt;: Tóm tắt 50 hóa đơn chi phí phụ tùng qua Histogram" vertex="1">
+          <mxGeometry height="180" width="340" x="1430" y="700" as="geometry" />
+        </mxCell>
+
+        <mxCell id="E3_CARD_3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=6;fillColor=#E3F2FD;strokeColor=#1E88E5;strokeWidth=1.5;fontColor=#0D47A1;fontSize=11;align=left;spacingLeft=10;spacingRight=10;spacingTop=6;spacingBottom=6;fontFamily=Helvetica;" value="&lt;b style=&quot;font-size: 12px; color: #0D47A1;&quot;&gt;3.3 ⚠️ ĐẶC TRƯNG TÓM TẮT DẠNG SỐ (NUMERICAL):&lt;/b&gt;&lt;br/&gt;• &lt;b&gt;Số đo trung tâm&lt;/b&gt;: Giá trị trung bình mẫu (Average / Mean: x̄ = Σx/n)&lt;br/&gt;• &lt;b&gt;Vị trí &amp; Độ phân tán&lt;/b&gt;: Trung vị (Median), Yếu vị (Mode), Phương sai &amp; Độ lệch chuẩn (mở rộng sâu ở Chương 3)&lt;br/&gt;• &lt;b&gt;Vai trò điều hành&lt;/b&gt;: Cung cấp con số tóm tắt cô đọng nhất phục vụ so sánh &amp; lập kế hoạch&lt;br/&gt;• &lt;b&gt;Giới hạn&lt;/b&gt;: Số trung bình dễ bị bóp méo bởi các giá trị ngoại lệ (Outliers) cực đoan" vertex="1">
+          <mxGeometry height="180" width="340" x="1800" y="700" as="geometry" />
+        </mxCell>
+
+        <!-- E3 Internal Hierarchy Edges -->
+        <mxCell id="E3_EDGE_1" edge="1" parent="1" source="E3_HEADER" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#0D47A1;strokeWidth=1.5;curved=0;exitX=0.2;exitY=1;entryX=0.5;entryY=0;" target="E3_CARD_1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E3_EDGE_2" edge="1" parent="1" source="E3_HEADER" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#0D47A1;strokeWidth=1.5;curved=0;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" target="E3_CARD_2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E3_EDGE_3" edge="1" parent="1" source="E3_HEADER" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#0D47A1;strokeWidth=1.5;curved=0;exitX=0.8;exitY=1;entryX=0.5;entryY=0;" target="E3_CARD_3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <!-- [E4] SUY DIỄN THỐNG KÊ -->
+        <mxCell id="E4_HEADER" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=10;fillColor=#BF360C;strokeColor=#E65100;fontColor=#ffffff;fontStyle=1;fontSize=13;shadow=1;fontFamily=Helvetica;" value="🎯 [E4] SUY DIỄN THỐNG KÊ (STATISTICAL INFERENCE)&lt;br/&gt;&lt;span style=&quot;opacity: 0.85; font-size: 11px; font-weight: normal;&quot;&gt;Nghệ thuật 'Nhìn góc đoán toàn cảnh' - Ước lượng &amp; Kiểm định Tổng thể&lt;/span&gt;" vertex="1">
+          <mxGeometry height="55" width="400" x="2600" y="600" as="geometry" />
+        </mxCell>
+
+        <mxCell id="E4_CARD_1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=6;fillColor=#FBE9E7;strokeColor=#FF7043;strokeWidth=1.5;fontColor=#BF360C;fontSize=11;align=left;spacingLeft=10;spacingRight=10;spacingTop=6;spacingBottom=6;fontFamily=Helvetica;" value="&lt;b style=&quot;font-size: 12px; color: #BF360C;&quot;&gt;4.1 🎯 BẢN CHẤT &amp; BỘ ĐÔI NỀN TẢNG:&lt;/b&gt;&lt;br/&gt;• &lt;b&gt;Tổng thể (Population, N)&lt;/b&gt;: Toàn bộ phần tử quan tâm; mang tham số μ&lt;br/&gt;• &lt;b&gt;Mẫu (Sample, n)&lt;/b&gt;: Tập con đại diện trích từ tổng thể (n &lt;&lt; N); mang thống kê x̄&lt;br/&gt;• &lt;b&gt;Điều tra toàn bộ (Census) vs Chọn mẫu (Sample Survey)&lt;/b&gt;: Census tốn kém, bất khả thi → Chọn mẫu tối ưu về kinh tế &amp; độ chính xác&lt;br/&gt;• &lt;b&gt;Suy diễn (Inference)&lt;/b&gt;: Dùng dữ liệu mẫu để ước lượng &amp; kiểm định&lt;br/&gt;• &lt;b&gt;Sức mạnh&lt;/b&gt;: Khảo sát mẫu 1.000 - 2.000 người suy rộng ra toàn dân" vertex="1">
+          <mxGeometry height="180" width="340" x="2260" y="700" as="geometry" />
+        </mxCell>
+
+        <mxCell id="E4_CARD_2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=6;fillColor=#FBE9E7;strokeColor=#FF7043;strokeWidth=1.5;fontColor=#BF360C;fontSize=11;align=left;spacingLeft=10;spacingRight=10;spacingTop=6;spacingBottom=6;fontFamily=Helvetica;" value="&lt;b style=&quot;font-size: 12px; color: #BF360C;&quot;&gt;4.2 ⚙️ QUY TRÌNH 4 BƯỚC SUY DIỄN &amp; SAI SỐ:&lt;/b&gt;&lt;br/&gt;• &lt;b&gt;B1: Xác định Tổng thể &amp; Tham số&lt;/b&gt;: Ví dụ Tuổi thọ trung bình μ chưa biết&lt;br/&gt;• &lt;b&gt;B2: Thu thập Mẫu đại diện ngẫu nhiên&lt;/b&gt;: Mẫu n = 200 bóng đèn Norris Electronics&lt;br/&gt;• &lt;b&gt;B3: Tính Thống kê mẫu&lt;/b&gt;: Tuổi thọ trung bình mẫu đạt x̄ = 76 giờ&lt;br/&gt;• &lt;b&gt;B4: Suy diễn ra Tổng thể&lt;/b&gt;: Dùng x̄ làm ước lượng điểm (Point estimator) cho μ&lt;br/&gt;• &lt;b&gt;Sai số biên (Margin of Error)&lt;/b&gt;: Công bố kèm sai số: 76 ± 4 giờ (khoảng tin cậy 72 - 80 giờ)" vertex="1">
+          <mxGeometry height="180" width="340" x="2630" y="700" as="geometry" />
+        </mxCell>
+
+        <mxCell id="E4_CARD_3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=6;fillColor=#FBE9E7;strokeColor=#FF7043;strokeWidth=1.5;fontColor=#BF360C;fontSize=11;align=left;spacingLeft=10;spacingRight=10;spacingTop=6;spacingBottom=6;fontFamily=Helvetica;" value="&lt;b style=&quot;font-size: 12px; color: #BF360C;&quot;&gt;4.3 ⚠️ TÍNH ĐẠI DIỆN, BẪY MẪU &amp; ĐẠO ĐỨC:&lt;/b&gt;&lt;br/&gt;• &lt;b&gt;Bẫy mẫu không đại diện&lt;/b&gt;: Thông báo lịch trước khiến đối tượng đối phó (thanh tra vệ sinh, kiểm định trường học) → Mất tính khách quan&lt;br/&gt;• &lt;b&gt;Nguyên tắc chọn mẫu&lt;/b&gt;: Mẫu bắt buộc phải khách quan, ngẫu nhiên&lt;br/&gt;• &lt;b&gt;Đạo đức 1 - Cấm lặp mẫu (Cherry-picking)&lt;/b&gt;: Tuyệt đối cấm chạy nhiều mẫu rồi chỉ chọn mẫu đạt ý muốn chủ quan&lt;br/&gt;• &lt;b&gt;Đạo đức 2 - Cấm gọt giũa (Data Trimming)&lt;/b&gt;: Không được tự ý xóa dữ liệu ngoại lệ" vertex="1">
+          <mxGeometry height="180" width="340" x="3000" y="700" as="geometry" />
+        </mxCell>
+
+        <!-- E4 Internal Hierarchy Edges -->
+        <mxCell id="E4_EDGE_1" edge="1" parent="1" source="E4_HEADER" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#BF360C;strokeWidth=1.5;curved=0;exitX=0.2;exitY=1;entryX=0.5;entryY=0;" target="E4_CARD_1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E4_EDGE_2" edge="1" parent="1" source="E4_HEADER" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#BF360C;strokeWidth=1.5;curved=0;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" target="E4_CARD_2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E4_EDGE_3" edge="1" parent="1" source="E4_HEADER" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#BF360C;strokeWidth=1.5;curved=0;exitX=0.8;exitY=1;entryX=0.5;entryY=0;" target="E4_CARD_3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <!-- ========================================== -->
+        <!-- TIER 3: BUSINESS & ECONOMIC APPLICATIONS   -->
+        <!-- Center Spanning: [E5] Pillars & Decisions  -->
+        <!-- ========================================== -->
+
+        <!-- [E5] TRỤ CỘT ỨNG DỤNG QUẢN TRỊ & KINH TẾ -->
+        <mxCell id="E5_HEADER" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=10;fillColor=#1B5E20;strokeColor=#2E7D32;fontColor=#ffffff;fontStyle=1;fontSize=13;shadow=1;fontFamily=Helvetica;" value="💼 [E5] TRỤ CỘT ỨNG DỤNG QUẢN TRỊ &amp; KINH TẾ (BUSINESS PILLARS)&lt;br/&gt;&lt;span style=&quot;opacity: 0.85; font-size: 11px; font-weight: normal;&quot;&gt;Chuyển hóa Dữ liệu thành Quyết định Chiến lược trên 5 Trọng tâm Doanh nghiệp&lt;/span&gt;" vertex="1">
+          <mxGeometry height="55" width="460" x="1970" y="960" as="geometry" />
+        </mxCell>
+
+        <mxCell id="E5_CARD_1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=6;fillColor=#E8F5E9;strokeColor=#43A047;strokeWidth=1.5;fontColor=#1B5E20;fontSize=11;align=left;spacingLeft=10;spacingRight=10;spacingTop=6;spacingBottom=6;fontFamily=Helvetica;" value="&lt;b style=&quot;font-size: 12px; color: #1B5E20;&quot;&gt;5.1 🎯 KẾ TOÁN &amp; TÀI CHÍNH (ACCOUNTING &amp; FINANCE):&lt;/b&gt;&lt;br/&gt;• &lt;b&gt;Kế toán / Kiểm toán&lt;/b&gt;: Lấy mẫu kiểm toán (Audit sampling) xác nhận tính trung thực của các khoản phải thu (Accounts Receivable) thay vì điều tra toàn bộ hóa đơn&lt;br/&gt;• &lt;b&gt;Tài chính / Đầu tư&lt;/b&gt;: Thu thập chỉ số P/E &amp; tỷ suất cổ tức, so sánh với trung bình thị trường Dow Jones (P/E 16.58 vs JPMorgan Chase 11.88) để ra khuyến nghị Mua/Bán&lt;br/&gt;• &lt;b&gt;Quản trị rủi ro danh mục&lt;/b&gt;: Đo lường biến động lợi suất &amp; rủi ro thị trường" vertex="1">
+          <mxGeometry height="180" width="380" x="1600" y="1060" as="geometry" />
+        </mxCell>
+
+        <mxCell id="E5_CARD_2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=6;fillColor=#E8F5E9;strokeColor=#43A047;strokeWidth=1.5;fontColor=#1B5E20;fontSize=11;align=left;spacingLeft=10;spacingRight=10;spacingTop=6;spacingBottom=6;fontFamily=Helvetica;" value="&lt;b style=&quot;font-size: 12px; color: #1B5E20;&quot;&gt;5.2 ⚙️ TIẾP THỊ, SẢN XUẤT &amp; KINH TẾ HỌC:&lt;/b&gt;&lt;br/&gt;• &lt;b&gt;Tiếp thị (Marketing)&lt;/b&gt;: Máy quét điện tử POS ghi nhận giao dịch tại quầy thu ngân, kết hợp dữ liệu khuyến mãi (chiết khấu, trưng bày) để đo lường quan hệ nhân quả &amp; tối ưu doanh số FMCG&lt;br/&gt;• &lt;b&gt;Sản xuất (Production)&lt;/b&gt;: Kiểm soát chất lượng thống kê (SQC), dùng biểu đồ x̄-bar với 2 đường giới hạn UCL/LCL giám sát quy trình đóng chai 12 oz, cảnh báo máy móc khi vượt giới hạn&lt;br/&gt;• &lt;b&gt;Kinh tế học (Economics)&lt;/b&gt;: Dự báo tỷ lệ lạm phát dựa trên mô hình kinh tế lượng tích hợp chuỗi số liệu: Chỉ số giá nhà sản xuất (PPI), Tỷ lệ thất nghiệp, Tỷ lệ sử dụng công suất" vertex="1">
+          <mxGeometry height="180" width="380" x="2010" y="1060" as="geometry" />
+        </mxCell>
+
+        <mxCell id="E5_CARD_3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=6;fillColor=#E8F5E9;strokeColor=#43A047;strokeWidth=1.5;fontColor=#1B5E20;fontSize=11;align=left;spacingLeft=10;spacingRight=10;spacingTop=6;spacingBottom=6;fontFamily=Helvetica;" value="&lt;b style=&quot;font-size: 12px; color: #1B5E20;&quot;&gt;5.3 ⚠️ TƯ DUY QUẢN TRỊ ĐỘT PHÁ TỪ THỐNG KÊ:&lt;/b&gt;&lt;br/&gt;• &lt;b&gt;Vây quanh bởi số liệu&lt;/b&gt;: Nhà quản lý thành công vượt trội nhờ thấu hiểu sâu sắc ý nghĩa số liệu&lt;br/&gt;• &lt;b&gt;Nói không với sự mơ hồ&lt;/b&gt;: Cụ thể hóa mọi nhận định định tính bằng tỷ lệ phần trăm chính xác (tăng lương bao nhiêu %, doanh thu tăng trưởng bao nhiêu % so với cùng kỳ)&lt;br/&gt;• &lt;b&gt;Ngôn ngữ thuyết phục&lt;/b&gt;: Dùng biểu đồ và số liệu để bảo vệ dự án trước Sếp và giải trình nhân viên&lt;br/&gt;• &lt;b&gt;Case-study BusinessWeek&lt;/b&gt;: Bán 1 triệu bản/tuần, dùng thông kê độc giả (90% dùng PC, 64% duyệt mua máy tính) để thuyết phục khách hàng quảng cáo" vertex="1">
+          <mxGeometry height="180" width="380" x="2420" y="1060" as="geometry" />
+        </mxCell>
+
+        <!-- E5 Internal Hierarchy Edges -->
+        <mxCell id="E5_EDGE_1" edge="1" parent="1" source="E5_HEADER" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#1B5E20;strokeWidth=1.5;curved=0;exitX=0.2;exitY=1;entryX=0.5;entryY=0;" target="E5_CARD_1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E5_EDGE_2" edge="1" parent="1" source="E5_HEADER" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#1B5E20;strokeWidth=1.5;curved=0;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" target="E5_CARD_2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E5_EDGE_3" edge="1" parent="1" source="E5_HEADER" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#1B5E20;strokeWidth=1.5;curved=0;exitX=0.8;exitY=1;entryX=0.5;entryY=0;" target="E5_CARD_3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <!-- ========================================== -->
+        <!-- CROSS-ENTITY CONNECTORS (THE 7 RELATIONSHIPS) -->
+        <!-- Engineered routing via dedicated corridors    -->
+        <!-- Zero card overlap, pill-badge labels          -->
+        <!-- ========================================== -->
+
+        <!-- 1. E2 -> E1: Cung cấp nguồn dữ liệu thô (Horizontal bridge between headers) -->
+        <mxCell id="CROSS_E2_E1" edge="1" parent="1" source="E2_HEADER" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#00838F;strokeWidth=2;fontSize=10;fontFamily=Helvetica;curved=0;exitX=0;exitY=0.5;entryX=1;entryY=0.5;labelBackgroundColor=#ffffff;spacing=4;" target="E1_HEADER" value="Cung cấp dữ liệu thô (Sơ cấp &amp;amp; Thứ cấp)&lt;br/&gt;Chuẩn hóa cấu trúc &amp;amp; Hệ thống 4 thang đo">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <!-- 2. E1 -> E3: Cung cấp tập dữ liệu (Left Margin Highway: x = 1020) -->
+        <mxCell id="CROSS_E1_E3" edge="1" parent="1" source="E1_HEADER" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#37474F;strokeWidth=2;fontSize=10;fontFamily=Helvetica;curved=0;exitX=0;exitY=0.5;entryX=0;entryY=0.5;labelBackgroundColor=#ffffff;spacing=4;" target="E3_HEADER" value="Cung cấp tập dữ liệu (Data Set)&lt;br/&gt;Tổ chức bảng biểu &amp;amp; Đồ thị mô tả">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1010" y="268" />
+              <mxPoint x="1010" y="628" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+
+        <!-- 3. E1 -> E4: Cung cấp dữ liệu mẫu (Central Corridor Highway: x = 2170) -->
+        <mxCell id="CROSS_E1_E4" edge="1" parent="1" source="E1_HEADER" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#37474F;strokeWidth=2;dashed=1;fontSize=10;fontFamily=Helvetica;curved=0;exitX=1;exitY=0.8;entryX=0;entryY=0.35;labelBackgroundColor=#ffffff;spacing=4;" target="E4_HEADER" value="Cung cấp dữ liệu mẫu đại diện (Sample n)&lt;br/&gt;Ước lượng tham số tổng thể (μ, N)">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2170" y="284" />
+              <mxPoint x="2170" y="619" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+
+        <!-- 4. E3 -> E5: Trực quan hóa hiện trạng (Central Corridor to E5 Top-Left) -->
+        <mxCell id="CROSS_E3_E5" edge="1" parent="1" source="E3_HEADER" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#0D47A1;strokeWidth=2;fontSize=10;fontFamily=Helvetica;curved=0;exitX=1;exitY=0.5;entryX=0.25;entryY=0;labelBackgroundColor=#ffffff;spacing=4;" target="E5_HEADER" value="Trực quan hóa hiện trạng điều hành&lt;br/&gt;Kiểm soát chất lượng (SQC x̄-chart)">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2160" y="628" />
+              <mxPoint x="2160" y="920" />
+              <mxPoint x="2085" y="920" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+
+        <!-- 5. E4 -> E5: Bằng chứng suy diễn chiến lược (Central Corridor to E5 Top-Right) -->
+        <mxCell id="CROSS_E4_E5" edge="1" parent="1" source="E4_HEADER" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#BF360C;strokeWidth=2.5;fontSize=10;fontFamily=Helvetica;curved=0;exitX=0;exitY=0.5;entryX=0.75;entryY=0;labelBackgroundColor=#ffffff;spacing=4;" target="E5_HEADER" value="Cung cấp bằng chứng suy diễn mẫu&lt;br/&gt;Kiểm toán, Định giá P/E, Dự báo vĩ mô">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2240" y="628" />
+              <mxPoint x="2240" y="920" />
+              <mxPoint x="2315" y="920" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+
+        <!-- 6. E5 -> E2: Phản hồi mục tiêu & Ràng buộc kinh tế (Right Margin Highway: x = 3380) -->
+        <mxCell id="CROSS_E5_E2" edge="1" parent="1" source="E5_HEADER" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#1B5E20;strokeWidth=2;dashed=1;fontSize=10;fontFamily=Helvetica;curved=0;exitX=1;exitY=0.5;entryX=1;entryY=0.5;labelBackgroundColor=#ffffff;spacing=4;" target="E2_HEADER" value="Mục tiêu kinh doanh định hướng thu thập&lt;br/&gt;Ràng buộc kinh tế: Chi phí &amp;lt; Lợi ích">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3390" y="988" />
+              <mxPoint x="3390" y="268" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+
+        <!-- 7. E4 <-> E1: Đạo đức nghề nghiệp bảo vệ toàn vẹn dữ liệu (Central Highway & Top Channel) -->
+        <mxCell id="CROSS_E4_E1" edge="1" parent="1" source="E4_HEADER" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#D32F2F;strokeWidth=2;dashed=1;fontSize=10;fontFamily=Helvetica;curved=0;exitX=0.5;exitY=0;entryX=0.5;entryY=0;startArrow=classic;startFill=1;labelBackgroundColor=#ffffff;spacing=4;" target="E1_HEADER" value="Chuẩn mực đạo đức bảo vệ tính toàn vẹn dữ liệu&lt;br/&gt;Cấm Cherry-picking &amp;amp; Cấm gọt giũa ngoại lệ">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2800" y="560" />
+              <mxPoint x="2200" y="560" />
+              <mxPoint x="2200" y="200" />
+              <mxPoint x="1600" y="200" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
